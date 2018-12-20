@@ -20,7 +20,7 @@ You can use the Consul CLI command, [`consul keygen`](/docs/commands/keygen.html
 
 ```sh
 $ consul keygen
-cg8StVXbQJ0gPvMd9o7yrg==
+JY34uTPZyfUE+6tinMYEVw==
 ```
 
 ### Enable Gossip Encryption: New Cluster
