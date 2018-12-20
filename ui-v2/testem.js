@@ -14,6 +14,12 @@ module.exports = {
   }
 };
 
+// outputs XML reports for CI
+if (process.env.EMBER_TEST_REPORT) {
+  module.exports.report_file = process.env.EMBER_TEST_REPORT;
+  module.exports.xunit_intermediate_output = true;
+}
+
 /*
  * ember-exam honors the `parallel` parameter in testem.js.
  * By default this value is 1 which means it only uses one client.
